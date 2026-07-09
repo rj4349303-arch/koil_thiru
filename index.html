@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>அருள்மிகு தேவி கண்ணனூர் அம்மன் தேவஸ்தானம் - அழைப்பிதழ்</title>
+    <meta name="description" content="மாம்பூதூர் கிராமம் அருள்மிகு தேவி கண்ணனூர் அம்மன் தேவஸ்தான ஆடித்திருவிழா அழைப்பிதழ்.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Noto+Serif+Tamil:wght@400;700&family=Yatra+One&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Dynamic background theme elements (Lamps / Agal Vilakku) -->
+    <div class="bg-decorations">
+        <div class="hanging-lamp left"></div>
+        <div class="hanging-lamp right"></div>
+    </div>
+    <!-- Entrance Splash Screen Overlay (First Page) -->
+    <div class="splash-overlay" id="splash-overlay">
+        <div class="splash-card">
+            <!-- Decorative border -->
+            <div class="decorative-border-outer">
+                <div class="decorative-border-inner"></div>
+            </div>
+            
+            <div class="splash-content">
+                <div class="om-symbol">உ</div>
+                <div class="om-sub-symbol">ஓம் சக்தி</div>
+                
+                <h1 class="splash-title">அருள்மிகு தேவி கண்ணனூர் அம்மன் தேவஸ்தானம்</h1>
+                <p class="splash-subtitle">மாம்பூதூர் கிராமம், உத்திரமேரூர் தாலுக்கா</p>
+                <p class="splash-event">ஆடித்திருவிழா அழைப்பிதழ்</p>
+                
+                <!-- Beautiful Temple/Bell SVG Logo -->
+                <div class="bell-container">
+                    <svg class="temple-bell" viewBox="0 0 100 100" width="80" height="80">
+                        <path d="M50 15 C35 15, 30 35, 30 65 L25 75 L75 75 L70 65 C70 35, 65 15, 50 15 Z" fill="url(#goldGrad)" stroke="#b5892b" stroke-width="2"/>
+                        <circle cx="50" cy="82" r="7" fill="url(#goldGrad)" stroke="#b5892b" stroke-width="1.5"/>
+                        <rect x="47" y="5" width="6" height="10" rx="3" fill="#b5892b"/>
+                        <path d="M30 65 L70 65" stroke="#8a111a" stroke-width="2"/>
+                        <defs>
+                            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#FFE07D" />
+                                <stop offset="50%" stop-color="#D4AF37" />
+                                <stop offset="100%" stop-color="#A67C1E" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                
+                <!-- Quick instruction to skip -->
+                <div class="splash-tip">
+                    திரையில் எங்கு வேண்டுமானாலும் கிளிக் செய்யவும் / Click anywhere to continue...
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Web Application -->
+    <div class="app-container">
+        <!-- Elegant Header -->
+        <header class="app-header">
+            <div class="header-logo-container">
+                <span class="header-symbol">உ</span>
+                <div class="header-text">
+                    <h2>அருள்மிகு தேவி கண்ணனூர் அம்மன் தேவஸ்தானம்</h2>
+                    <p>ஆடித்திருவிழா அழைப்பிதழ் (02-08-2026 - 03-08-2026)</p>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- Zoom and Pan Viewport -->
+        <div class="zoom-viewport" id="zoom-viewport">
+            <div class="zoom-content" id="zoom-content">
+                <!-- Book Wrapper -->
+                <div class="book-wrapper">
+                    <div id="book" class="book-container-element">
+                        
+                        <!-- Page 1 (Cover Page) -->
+                        <div class="my-page" data-density="hard">
+                            <div class="page-content">
+                                <img src="assets/images/page1.jpg" alt="அழைப்பிதழ் முகப்பு">
+                                <div class="page-number-display">1</div>
+                            </div>
+                        </div>
+
+                        <!-- Page 2 (Invitation Letter) -->
+                        <div class="my-page">
+                            <div class="page-content">
+                                <img src="assets/images/page2.jpg" alt="அழைப்பிதழ் மடல்">
+                                <div class="page-number-display">2</div>
+                            </div>
+                        </div>
+
+                        <!-- Page 3 (Program Schedule) -->
+                        <div class="my-page">
+                            <div class="page-content">
+                                <img src="assets/images/page3.jpg" alt="நிகழ்ச்சி நிரல்">
+                                <div class="page-number-display">3</div>
+                            </div>
+                        </div>
+
+                        <!-- Page 4 (Donors List / Back Cover) -->
+                        <div class="my-page" data-density="hard">
+                            <div class="page-content">
+                                <img src="assets/images/page4.jpg" alt="உபயதாரர்கள் விவரம்">
+                                <div class="page-number-display">4</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Load StPageFlip Browser library from CDN -->
+    <script src="https://unpkg.com/page-flip/dist/js/page-flip.browser.js"></script>
+    <!-- Custom logic script -->
+    <script src="app.js"></script>
+</body>
+</html>
